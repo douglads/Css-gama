@@ -1,0 +1,39 @@
+*{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+/*
+#primeiro{
+    border: 1px solid green;
+    margin: 30px;
+}
+
+.segundo{
+    border: 1px solid black;
+    padding: 15px;
+}
+*/
+.navigation nav span{
+    color: indigo;
+    cursor: pointer;
+    transition: 300ms;
+}
+nav span:hover{
+    text-decoration: underline;
+    color: black;
+    background-color: lightcoral;
+}
+#primeiro, .segundo, .navigation{
+    border: 5px solid black;
+    padding: 15px;
+}
+
+.segundo > p{
+    color: green;
+}
+
+.segundo > div{
+    display: block !important;
+}
